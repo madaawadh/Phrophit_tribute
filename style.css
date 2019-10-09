@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Aref+Ruqaa&display=swap');
+html,body{
+margin:0;
+}
+#logo{
+height:50%; 
+width:30%; 
+}
+.front{
+    background: linear-gradient(0deg, rgba(190,179,125,1) 0%, rgba(197,236,243,1) 99%) no-repeat;
+    display: flex;
+    height:100vh;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    align-items:center;
+    flex-direction:column;
+    color:#ab8060;
+    margin:0;
+}
+article{
+    margin-top:100vh;
+    width:100vw;
+    position: relative;
+    margin-left:0;
+    padding-left:0;
+    margin-right:0;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    align-content:space-around;
+    justify-content:center;
+background: #dbac76;
+}
+figure{
+    display: flex;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    bottom:0;
+    left:0;
+margin: 0;
+}
+section{
+    background: url("paper.jpg");
+    text-align: center;
+    width:600px;
+    height:360px;
+    margin:2%;
+cursor: pointer;
+}
+.info{
+    background: url("paper.jpg");
+    height:90%;
+    width:80%;
+    top:5%;
+    left:10%;
+    position: fixed;
+    z-index: 4;
+    text-align: center;
+    display:none;
+}
+#close{
+    position: absolute;
+    left:0;
+}
+
+a{
+    top:80%;
+    position: absolute;
+    z-index: 5;
+}
+p{
+    font-family: 'Amiri', serif;
+    display:none;
+    z-index: 1;
+}
+h1{
+    font-family:'Aref Ruqaa', serif;
+}
+.img{
+    height:70%; 
+    width:50%;
+  
+}
+.frontImg{
+ margin:0; 
+ align-self:flex-end;
+ position: absolute;
+ 
+}
+#st{
+    z-index:3;  
+}
+#nd{
+margin-left:20%;
+z-index:2;
+}
+#rd{
+    margin-left:58%;
+    }
+#th{
+    margin-left:72%;
+    }
+    #bet1{
+        margin-left:38%;
+        z-index:1;
+        }
+    #bet2{
+        margin-left:50%;
+        }
+        #display{
+            display:block;
+        }
+  
+          #content-wrap {
+            padding-bottom: 2.5rem;    /* Footer height */
+          }
+          
+          footer {
+            text-align: center;
+            width:100%;
+            color:wheat;
+            background:#4e0c37;
+            height: 2.5rem;            
+          }
+@media only screen and (max-width: 600px) {
+    section{
+        width:80%;
+    }
+    #logo{
+        height:30%; 
+        width:50%; 
+        }
+}
