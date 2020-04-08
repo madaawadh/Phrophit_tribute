@@ -1,4 +1,4 @@
-# Phrophit_tribute
+# Prophit_tribute
 ## animate
 ## Smooth Scroll
 
